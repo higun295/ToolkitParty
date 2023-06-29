@@ -1,0 +1,13 @@
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\bin\Debug\net7.0\ToolkitParty.MAUI.Controls.deps.json
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\bin\Debug\net7.0\ToolkitParty.MAUI.Controls.dll
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\bin\Debug\net7.0\ToolkitParty.MAUI.Controls.pdb
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ToolkitParty.MAUI.Controls.csproj.AssemblyReference.cache
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ToolkitParty.MAUI.Controls.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ToolkitParty.MAUI.Controls.AssemblyInfoInputs.cache
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ToolkitParty.MAUI.Controls.AssemblyInfo.cs
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ToolkitParty.MAUI.Controls.csproj.CoreCompileInputs.cache
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\XamlC.stamp
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ToolkitParty.MAUI.Controls.dll
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\refint\ToolkitParty.MAUI.Controls.dll
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ToolkitParty.MAUI.Controls.pdb
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI.Controls\obj\Debug\net7.0\ref\ToolkitParty.MAUI.Controls.dll

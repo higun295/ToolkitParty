@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView x:Class="ToolkitParty.MAUI.Controls.Controls.SwitchWithText"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentView.Resources>
+        <Style x:Key="SwitchLabel"
+               TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="VerticalTextAlignment" Value="Center" />
+            <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
+    </ContentView.Resources>
+
+    <Grid>
+        <Switch x:Name="mySwitch"
+                HorizontalOptions="Center"
+                OnColor="Red"
+                ThumbColor="Blue" />
+        <Label x:Name="myLabel"
+               FontSize="11"
+               Style="{StaticResource SwitchLabel}"
+               Text="ON"
+               WidthRequest="150">
+            <Label.Triggers>
+                <DataTrigger Binding="{Binding Source={x:Reference mySwitch}, Path=IsToggled}"
+                             TargetType="Label"
+                             Value="False">
+                    <Setter Property="Text" Value="OFF" />
+                </DataTrigger>
+            </Label.Triggers>
+        </Label>
+    </Grid>
+</ContentView>
