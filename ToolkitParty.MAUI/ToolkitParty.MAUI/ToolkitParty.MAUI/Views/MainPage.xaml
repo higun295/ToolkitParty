@@ -1,37 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage x:Class="ToolkitParty.MAUI.Views.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="{Binding Title}"
-             x:Class="ToolkitParty.MAUI.Views.MainPage">
+             Title="{Binding Title}">
 
-  <ScrollView>
-    <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0"
+                             Spacing="25"
+                             VerticalOptions="Center">
 
-      <Image Source="prism.png"
-             SemanticProperties.Description="Cute dot net bot waving hi to you!"
-             HeightRequest="150"
-             HorizontalOptions="Center" />
+            <Image HeightRequest="150"
+                   HorizontalOptions="Center"
+                   SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                   Source="prism.png" />
 
-      <Label Text="Hello, World!"
-             SemanticProperties.HeadingLevel="Level1"
-             FontSize="32"
-             HorizontalOptions="Center" />
+            <Label FontSize="32"
+                   HorizontalOptions="Center"
+                   SemanticProperties.HeadingLevel="Level1"
+                   Text="Hello, World!" />
 
-      <Label Text="Welcome to Prism for .NET MAUI"
-             SemanticProperties.HeadingLevel="Level2"
-             SemanticProperties.Description="Welcome to Prism for dot net Multi platform App U I"
-             FontSize="18"
-             HorizontalOptions="Center" />
+            <Label FontSize="18"
+                   HorizontalOptions="Center"
+                   SemanticProperties.Description="Welcome to Prism for dot net Multi platform App U I"
+                   SemanticProperties.HeadingLevel="Level2"
+                   Text="Welcome to Prism for .NET MAUI" />
 
-      <Button Text="{Binding Text}"
-              SemanticProperties.Hint="Counts the number of times you click"
-              Command="{Binding CountCommand}"
-              HorizontalOptions="Center" />
+            <Button Command="{Binding CountCommand}"
+                    HorizontalOptions="Center"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Text="{Binding Text}" />
 
-    </VerticalStackLayout>
-  </ScrollView>
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>

@@ -1,0 +1,1 @@
+D:\01_Projects\SELF_PROJECT\10_ToolkitParty\ToolkitParty.MAUI\ToolkitParty.MAUI\ToolkitParty.MAUI\ToolkitParty.MAUI.csproj;x64
